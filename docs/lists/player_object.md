@@ -14,7 +14,7 @@ For player class loadout modifications, you can use the [quick weapon id list](/
         3,      # x rotation
         0,      # y rotation
         3       # z rotation
-    );    
+    );
 
     player.disableDefault("jump"); # str disables input behaviours (client & server)
 
@@ -46,6 +46,7 @@ For player class loadout modifications, you can use the [quick weapon id list](/
     player.visible = false;        # bool visible
     player.team;                   # num team (read-only)
     player.ammo                    # num ammo count (read-only)
+    player.team;                   # num team ID (read-only)
 
     player.classIndex;             # num returns class ID
     player.loadoutIndex;           # num weapon slot ID

@@ -3,6 +3,9 @@ title: Changelogs
 tagline: Changelogs for SOTT Quick Krunker Docs
 ---
 
+# Update 5.7.4
+- added UTILS.HEXtoRGB
+
 # Update 5.6.8
 - added game.settings.get
 - added class id's to weapon id quick list

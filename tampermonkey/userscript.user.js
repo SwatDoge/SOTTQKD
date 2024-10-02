@@ -6,7 +6,7 @@
 // @supportURL   https://discord.gg/bz8abvq
 // @description  Integrates the SOTT Quick KrunkScript documentation into the scripting screen.
 // @author       Swat
-// @match        https://krdocs.swatdo.ge/*
+// @match        https://krdocs.swatdoge.eu/*
 // @match        https://krunker.io/scripting.html
 // @match        https://krunker.io/editor.html
 // @grant        unsafeWindow
@@ -14,7 +14,7 @@
 // @run-at       document-start
 // ==/UserScript==
 
-let link = "https://krdocs.swatdo.ge/";
+let link = "https://krdocs.swatdoge.eu/";
 let default_link = "https://docs.krunker.io/#/"
 
 unsafeWindow.onload = function(){
@@ -24,7 +24,7 @@ unsafeWindow.onload = function(){
     if (unsafeWindow.location.href.includes("scripting.html")){
         load_scripting();
     }
-    if (unsafeWindow.location.href.includes("krdocs.swatdo.ge")){
+    if (unsafeWindow.location.href.includes("krdocs.swatdoge.eu")){
         load_document();
     }
 }

@@ -1,6 +1,6 @@
-# [SOTT Quick Krunker Docs](https://krdocs.swatdo.ge/)
+# [SOTT Quick Krunker Docs](https://krdocs.swatdoge.eu/)
 
-https://krdocs.swatdo.ge/
+https://krdocs.swatdoge.eu/
 
 A Krunker documentation website that purely focuses on KrunkScript (no editor/monetization).
 

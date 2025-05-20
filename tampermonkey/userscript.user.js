@@ -17,7 +17,7 @@
 let link = "https://krdocs.swatdoge.eu/";
 let default_link = "https://docs.krunker.io/#/"
 
-unsafeWindow.onload = function(){
+unsafeWindow.addEventListener("load", function(){
     if (unsafeWindow.location.href.includes("editor.html")){
         load_editor();
     }
@@ -27,7 +27,7 @@ unsafeWindow.onload = function(){
     if (unsafeWindow.location.href.includes("krdocs.swatdoge.eu")){
         load_document();
     }
-}
+});
 
 function load_document(){
     if (unsafeWindow.self !== unsafeWindow.top){
